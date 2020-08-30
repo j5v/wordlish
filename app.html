@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Wordlish</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="1.css">
+  <script src="main.js"></script>
+</head>
+<body onload="app = App();">
+  <div class="header row">
+    <div class="col">
+      <div class="title">Wordlish</div>
+      <label for="source">Paste your text:</label>
+    </div>
+    <textarea id="user-input" class="col" rows="3" multiline>This is a test paragraph. Wordlish can handle quotes, hyphenated words, and contractions like "what's". Over-repeated words like "and" and "and" will likely show in the analysis.</textarea>
+    <button  class="col" onclick="app.analyse();">Go!</button>
+  </div>
+  <div class="row row-content">
+    <div id="analysis"></div>
+  </div>
+  <div class="footer row">
+    <div>
+      <h1>About</h1>
+      <p><span class="app-name">Wordlish</span> analyses your text for word frequency, and compares it to the top 6000 most-used words <span class="makeref">[1]</span>, with some re-balancing for fiction. This works best with large bodies of text.</p>
+      <p>High 'Relative to Typical' results might not necessarily indicate that you should cull those words, because the 'typical' database corpus might not be aligned to your genre and writing intent. If your text contains dialogue, then characters might be speaking with their own biases.</p>
+      <p>Version 1.11, created by <a href="/">John Valentine</a>. <a href="/index.php?art=donate">Donate</a> to support software like this.
+      <h1>Data policy</h1>
+      <p>All your text is processed in-browser, is not sent over the network, and is not stored by this website. We have chosen to openly package the code on this page, for data transparency purposes.</p>
+      <h1>References</h1>
+      <p class="refs">[1] <a href="https://www.kilgarriff.co.uk/bnc-readme.html" target="_blank">BNC database and word frequency lists</a>, retrieved 2019-03-15.</p>
+    </div>
+  </div>
+</body>
+</html>
