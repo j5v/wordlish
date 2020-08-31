@@ -1,7 +1,7 @@
 # Wordlish
 Wordlish is a handy analysis tool for writers and editors.
 
-Use Wordlish to analyse text in your browser, highlighting:
+Use Wordlish to analyse text in your browser. Learn about:
 * possible word over-use,
 * gender balance,
 * words that are particular to some locales an not others (US/UK),
@@ -9,7 +9,7 @@ Use Wordlish to analyse text in your browser, highlighting:
 
 # Future direction
 
-Free and open source softare can go anywhere in future.
+Free and open source software can go anywhere in future.
 - I (author) wrote Wordlish to be fast, and do everything at the client browser without sending text to a server. On an old laptop, Wordlish reports on _War and Peace_ in a quarter of a second.
 - We're looking for other groups of words that writers might want to think about using carefully or not using at all.
 
